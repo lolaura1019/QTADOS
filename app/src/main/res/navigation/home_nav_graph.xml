@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:startDestination="@id/dosMitadesFragment">
+
+    <fragment
+        android:id="@+id/dosMitadesFragment"
+        android:name="com.example.myapplication.DosMitadesFragment"
+        android:label="Dos Mitades">
+        <argument
+            android:name="correo"
+            app:argType="string" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/dosPalabrasFragment"
+        android:name="com.example.myapplication.DosPalabrasFragment"
+        android:label="Dos Palabras">
+        <argument
+            android:name="correo"
+            app:argType="string" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/quitarFragmentoFragment"
+        android:name="com.example.myapplication.QuitarFragmentoFragment"
+        android:label="Quitar Fragmento">
+        <argument
+            android:name="correo"
+            app:argType="string" />
+    </fragment>
+</navigation>

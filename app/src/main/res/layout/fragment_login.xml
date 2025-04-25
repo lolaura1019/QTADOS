@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.google.android.material.appbar.MaterialToolbar
+        android:id="@+id/topAppBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/verde_principal"
+        android:title="@string/iniciar_sesion"
+        android:titleTextColor="@color/colorBackground"
+        app:navigationIcon="@drawable/ic_arrow_back"
+        app:titleCentered="true"
+        app:layout_scrollFlags="scroll|enterAlways" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="24dp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="96dp">
+
+        <EditText
+            android:id="@+id/et_correo"
+            android:hint="@string/usuario"
+            android:inputType="textEmailAddress"
+            android:layout_width="350dp"
+            android:layout_height="60dp"
+            android:background="@drawable/borde_verde" />
+
+        <EditText
+            android:id="@+id/et_clave"
+            android:hint="@string/contrasena"
+            android:inputType="textPassword"
+            android:layout_marginTop="50dp"
+            android:layout_width="350dp"
+            android:layout_height="60dp"
+            android:background="@drawable/borde_verde" />
+
+        <Button
+            android:id="@+id/btn_ingresar"
+            android:text="@string/ingresar"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/boton_verde_redondo"
+            android:textColor="@color/colorText" />
+    </LinearLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

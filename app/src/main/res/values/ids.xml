@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="tv_saludo" type="id"/>
+    <item name="tv_explicacion" type="id"/>
+    <item name="et_entrada" type="id"/>
+    <item name="btn_solucionar" type="id"/>
+    <item name="btn_iniciar_sesion" type="id"/>
+    <item name="et_correo" type="id"/>
+    <item name="et_clave" type="id"/>
+    <item name="btn_ingresar" type="id"/>
+    <item name="btn_atras" type="id"/>
+    <item name="inicioFragment" type="id"/>
+    <item name="toolbar_dos_palabras" type="id"/>
+    <item name="toolbar_quitar_fragmento" type="id"/>
+    <item name="toolbar_dos_mitades" type="id"/>
+    <item name="action_global_loginFragment" type="id"/>
+</resources>

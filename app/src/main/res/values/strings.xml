@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Mi Aplicación</string>
+    <string name="iniciar_sesion">Iniciar sesión</string>
+    <string name="usuario">Usuario</string>
+    <string name="contrasena">Contraseña</string>
+    <string name="ingresar">Ingresar</string>
+    <string name="saludo">Hola %1$s</string>
+    <string name="solucionar">Solucionar</string>
+    <string name="texto_dos_mitades">Te voy a ayudar a solucionar el problema de las 2 mitades...</string>
+    <string name="texto_dos_palabras">Te voy a ayudar a solucionar el problema de las 2 palabras...</string>
+    <string name="texto_quitar_fragmento">Te voy a ayudar a solucionar el problema quitar el fragmento...</string>
+    <string name="cadena_entrada">Ingresa una cadena de caracteres</string>
+    <string name="volver">Volver</string>
+</resources>
